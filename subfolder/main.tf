@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "test" {
-  bucket = "utr1903testbucket123"
+  bucket = "utr1903testbucket123subfolder"
 }
 
 output "bucket_arn" {
